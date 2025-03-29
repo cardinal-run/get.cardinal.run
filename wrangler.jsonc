@@ -1,0 +1,24 @@
+{
+	"$schema": "node_modules/wrangler/config-schema.json",
+	"name": "get-cardinal-run",
+	"main": "src/index.ts",
+	"compatibility_date": "2025-03-21",
+	"observability": {
+		"enabled": true
+	},
+	"routes": [
+		{
+			"pattern": "get.cardinal.run/*",
+			"zone_name": "cardinal.run",
+		}
+	],
+	"rules": [
+	  {
+		"type": "Text",
+		"globs": [
+		  "**/*.sh"
+		],
+		"fallthrough": true
+	  }
+	]
+}
