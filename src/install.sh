@@ -1,5 +1,7 @@
 #!/usr/bin/env sh
 
+# Source: https://github.com/cardinal-run/get.cardinal.run
+
 set -e
 
 # Function to compare two major.minor.patch versions
