@@ -1,4 +1,6 @@
-# <center><a href="get.cardinal.run">get.cardinal.run</a></center>
+<h1 align="center">
+  <a href="get.cardinal.run">get.cardinal.run</a>
+</h1>
 
 [![build](https://github.com/cardinal-run/get.cardinal.run/actions/workflows/main.yaml/badge.svg)](https://github.com/cardinal-run/get.cardinal.run/actions/workflows/main.yaml)
 [![coverage](https://raw.githubusercontent.com/cardinal-run/get.cardinal.run/main/coverage_badge.svg)](https://github.com/cardinal-run/get.cardinal.run/actions/workflows/main.yaml)
