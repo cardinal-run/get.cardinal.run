@@ -20,3 +20,21 @@ jobs:
     with:
       includes: "**/*.md"
       modified_files_only: false
+
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 23
+
+      - name: Install Dependencies
+        run: npm ci
+
+      - name: Run Tests
+        run: npm run coverage
+
+      - name: Check Code Coverage
+        uses: VeryGoodOpenSource/very_good_coverage@v3.0.0

@@ -82,7 +82,7 @@ We recommend you add the following to your main.dart file:
 
   1 │ import 'package:cardinal/cardinal.dart';
   2 │
-  3 │ void main() {
+  3 │ void main() async {
   4 │   await Cardinal.run(
   5 │     dsn: '<YOUR_DSN_HERE>',
   6 │     integrations: {Cardinal.analytics},
